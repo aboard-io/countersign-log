@@ -1,0 +1,15 @@
+Countersign public log · https://countersign.tinylittleoffice.com · as it stood at the end of 2026-10-24 (UTC)
+Every document everyone signed, by its signing id, fingerprint (SHA-256 over the list of page hashes), page count and time (UTC).
+Each entry is chained to the one before (prev = SHA-256 of the previous entry, countersignature included) and countersigned by key kzgtB7pHtwyYPWRWRZl60h_8LbltKsjER1ly5e-uxJY, published at https://countersign.tinylittleoffice.com/.well-known/countersign.json. The signed part of an entry is {signing, fingerprint, pages, at, prev, hash} in canonical JSON, hash (the executed copy's SHA-256, as mailed) where the line has one.
+Each day's page is at https://countersign.tinylittleoffice.com/log/<YYYY-MM-DD>.txt and, once the day is over, is committed to a public GitHub repository, where the commit pins its bytes; the whole log as it stands is at https://countersign.tinylittleoffice.com/log/all.txt.
+
+seq	at	signing	fingerprint	pages	prev	csig	hash
+1	2026-10-21T02:50:05.503Z	2B63bhKFFwCPvOZoDXJ0xE	_1sdhm5VETtArxZGMjbhZRnufuzJDrvLs_wzTprRiMg	20		LGmr4dZzZSJOkv59r875QxDvBoilQ8UU-9q7sUel_oDmTdRlVAaFWhDJJBQICJ9j1ITF7EFDQWCcrlLNOdk7MQ	
+2	2026-10-21T18:47:25.287Z	1lacf4QonnS0p539xSjZBO	Hbsuepy0VwBWEcmrW51KhqBko5BASPXls_oWsa7hDBI	2	d1Sl03rwQD93HCDMpapd1DGR8_UG7CklBwgZIdXqN5I	RvU5DX9xwHWhu7oIWOdQQxWo9TkdtdLLc00WGMm10GRNSjmy53ynJEP7K38urbIHlrMj2YZB6pP0JEDFWXxlrA	ZD3BAqXrWbWD7DRZ7CkuU8I0HSsLVVsLl76-Vkju-xA
+3	2026-10-21T19:03:33.821Z	0zvT21yo6RUwAdQqVn5nIk	KOianHvggKt7y3ttBu_OC4cGf7Bq8z7-4ZKzPuaBRKM	2	LtUNcvmO5nfuiNINQBruJN2iRCv1L0MYMzUEdVlnFzk	zTZuIq4R3GloWQXvOmb4zPOVe49PSj0QKPxNeopkTPdw9HjN3PEeB4ZeCeqMBU4cF-n883MvntR2ZNoZlurwrQ	0WWg14uE2iIhIeChAgusuVwbEmKT-sjhPJNQsMqFTrg
+4	2026-10-23T15:57:38.927Z	0FPVs2xjY5QNrKIVXNNkde	SfY9hVyeo3usPTuhWWMcpAzVMc33FH0QixKRpyDFIdQ	1	gnqzEefRYVORY0WQwtN4CxyM41bMlWu-8xlRummnPO8	dFepdXXU4YYRMGqkCKvMy202U5DIxju_DNN-sxaDAy-UlJkXvkQxfCoHRMZrKqQRkRlJCAaV26ibq1Ju-4Ju4g	ZpXlKrr0BudYe9yVhQGcQQtQWmYZ1baf3xte-fN_4IY
+
+Copies of earlier days committed to GitHub (day, head seq, time, address):
+2026-10-23	4	2026-10-24T00:10:54.000Z	https://github.com/aboard-io/countersign-log/blob/6fa61b9d7e710e060c5accde414b21a4d8ebd270/log/2026-10-23.txt
+2026-10-22	3	2026-10-23T00:10:55.000Z	https://github.com/aboard-io/countersign-log/blob/09bffbca24fc5f72cbbfa2bc8fa63f0823c85a2c/log/2026-10-22.txt
+2026-10-21	3	2026-10-22T00:10:54.000Z	https://github.com/aboard-io/countersign-log/blob/bcb74f380feaa3cfacb3bca85dc7917e04e7caa8/log/2026-10-21.txt
